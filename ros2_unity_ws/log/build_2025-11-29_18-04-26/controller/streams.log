@@ -1,0 +1,1 @@
+[0.021s] Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16

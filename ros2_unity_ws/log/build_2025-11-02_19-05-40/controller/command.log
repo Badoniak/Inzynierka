@@ -1,0 +1,6 @@
+Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake /home/dawid/ros2_unity_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/dawid/ros2_unity_ws/install/controller
+Invoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake /home/dawid/ros2_unity_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/dawid/ros2_unity_ws/install/controller
+Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16
+Invoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16
+Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller
+Invoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller

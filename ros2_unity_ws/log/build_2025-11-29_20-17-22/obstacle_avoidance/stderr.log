@@ -1,0 +1,2 @@
+[2;36m[11/29/25 20:17:25][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't ]8;id=219552;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=600466;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2;36m                    [0m         any                                                [2m         [0m

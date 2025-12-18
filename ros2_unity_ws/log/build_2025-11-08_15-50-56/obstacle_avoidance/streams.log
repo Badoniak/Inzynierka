@@ -1,0 +1,27 @@
+[2.772s] Invoking command in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance': PYTHONPATH=/home/dawid/ros2_unity_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build install --record /home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[3.311s] running egg_info
+[3.333s] writing ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO
+[3.334s] writing dependency_links to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt
+[3.334s] writing entry points to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt
+[3.334s] writing requirements to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt
+[3.334s] writing top-level names to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt
+[3.429s] [2;36m[11/08/25 15:51:00][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any       ]8;id=231577;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=31548;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[3.430s] reading manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[3.431s] writing manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[3.431s] running build
+[3.431s] running build_py
+[3.431s] copying obstacle_avoidance/obstacle_avoidance.py -> /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[3.431s] running install
+[3.436s] running install_lib
+[3.460s] copying /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance.py -> /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance
+[3.460s] byte-compiling /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[3.462s] byte-compiling /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance_copy.py to obstacle_avoidance_copy.cpython-310.pyc
+[3.462s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (obstacle_avoidance_copy.py, line 55)
+[3.462s] running install_data
+[3.462s] running install_egg_info
+[3.485s] removing '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)
+[3.486s] Copying ../../build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info
+[3.487s] running install_scripts
+[3.593s] Installing obstacle_avoidance script to /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/obstacle_avoidance
+[3.593s] writing list of installed files to '/home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log'
+[3.681s] Invoked command in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build install --record /home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data

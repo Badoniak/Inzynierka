@@ -1,0 +1,16 @@
+[0.036s] Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16
+[1.942s] Invoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16
+[1.956s] Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller
+[1.967s] -- Install configuration: ""
+[1.968s] -- Execute custom install script
+[1.969s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/launch/controller.launch.py
+[1.970s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/config/controllers.yaml
+[1.970s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[1.971s]   ament_cmake_symlink_install_directory() can't find
+[1.971s]   '/home/dawid/ros2_unity_ws/src/controller/obstacle_avoidance'
+[1.971s] Call Stack (most recent call first):
+[1.971s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[1.971s]   cmake_install.cmake:46 (include)
+[1.971s] 
+[1.971s] [0m
+[1.973s] Invoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller

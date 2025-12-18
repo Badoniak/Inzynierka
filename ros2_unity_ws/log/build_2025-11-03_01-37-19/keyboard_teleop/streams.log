@@ -1,0 +1,31 @@
+[3.321s] Invoking command in '/home/dawid/ros2_unity_ws/src/keyboard_teleop': PYTHONPATH=/home/dawid/ros2_unity_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/dawid/ros2_unity_ws/build/keyboard_teleop/build install --record /home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data
+[4.124s] running egg_info
+[4.160s] writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO
+[4.162s] writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt
+[4.162s] writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt
+[4.162s] writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt
+[4.162s] writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt
+[4.322s] [2;36m[11/03/25 01:37:24][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any  ]8;id=72269;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=364991;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[4.324s] reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[4.325s] writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[4.325s] running build
+[4.326s] running build_py
+[4.326s] creating /home/dawid/ros2_unity_ws/build/keyboard_teleop/build/lib/obstacle_avoidance
+[4.326s] copying obstacle_avoidance/obstacle_avoidance.py -> /home/dawid/ros2_unity_ws/build/keyboard_teleop/build/lib/obstacle_avoidance
+[4.326s] copying obstacle_avoidance/__init__.py -> /home/dawid/ros2_unity_ws/build/keyboard_teleop/build/lib/obstacle_avoidance
+[4.327s] running install
+[4.334s] running install_lib
+[4.371s] creating /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/obstacle_avoidance
+[4.371s] copying /home/dawid/ros2_unity_ws/build/keyboard_teleop/build/lib/obstacle_avoidance/obstacle_avoidance.py -> /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/obstacle_avoidance
+[4.372s] copying /home/dawid/ros2_unity_ws/build/keyboard_teleop/build/lib/obstacle_avoidance/__init__.py -> /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/obstacle_avoidance
+[4.372s] byte-compiling /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[4.375s] byte-compiling /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/obstacle_avoidance/__init__.py to __init__.cpython-310.pyc
+[4.375s] running install_data
+[4.375s] copying package.xml -> /home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop
+[4.376s] running install_egg_info
+[4.412s] removing '/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[4.413s] Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info
+[4.414s] running install_scripts
+[4.581s] Installing keyboard_teleop script to /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/keyboard_teleop
+[4.581s] writing list of installed files to '/home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log'
+[4.692s] Invoked command in '/home/dawid/ros2_unity_ws/src/keyboard_teleop' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/dawid/ros2_unity_ws/build/keyboard_teleop/build install --record /home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+running develop
+running egg_info
+creating description.egg-info
+writing description.egg-info/PKG-INFO
+writing dependency_links to description.egg-info/dependency_links.txt
+writing requirements to description.egg-info/requires.txt
+writing top-level names to description.egg-info/top_level.txt
+writing manifest file 'description.egg-info/SOURCES.txt'
+[2;36m[10/12/25 18:37:15][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=255082;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=240947;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2;36m                    [0m         there aren't any                          [2m         [0m
+reading manifest file 'description.egg-info/SOURCES.txt'
+writing manifest file 'description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description.egg-link (link to .)
+
+Installed /home/dawid/ros2_unity_ws/build/description
+running symlink_data
+creating /home/dawid/ros2_unity_ws/install/description/share/ament_index
+creating /home/dawid/ros2_unity_ws/install/description/share/ament_index/resource_index
+creating /home/dawid/ros2_unity_ws/install/description/share/ament_index/resource_index/packages
+symbolically linking /home/dawid/ros2_unity_ws/build/description/resource/description -> /home/dawid/ros2_unity_ws/install/description/share/ament_index/resource_index/packages
+symbolically linking /home/dawid/ros2_unity_ws/build/description/package.xml -> /home/dawid/ros2_unity_ws/install/description/share/description
+creating /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+symbolically linking /home/dawid/ros2_unity_ws/build/description/urdf/ros2_control.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+symbolically linking /home/dawid/ros2_unity_ws/build/description/urdf/interials.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+symbolically linking /home/dawid/ros2_unity_ws/build/description/urdf/rover.urdf.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+symbolically linking /home/dawid/ros2_unity_ws/build/description/urdf/gazebo_control.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+creating /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+symbolically linking /home/dawid/ros2_unity_ws/build/description/meshes/BR_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+symbolically linking /home/dawid/ros2_unity_ws/build/description/meshes/FL_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+symbolically linking /home/dawid/ros2_unity_ws/build/description/meshes/BL_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+symbolically linking /home/dawid/ros2_unity_ws/build/description/meshes/base_link.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+symbolically linking /home/dawid/ros2_unity_ws/build/description/meshes/FR_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+creating /home/dawid/ros2_unity_ws/install/description/share/description/launch
+symbolically linking /home/dawid/ros2_unity_ws/build/description/launch/gazebo.launch.py -> /home/dawid/ros2_unity_ws/install/description/share/description/launch
+symbolically linking /home/dawid/ros2_unity_ws/build/description/launch/rsp.launch.py -> /home/dawid/ros2_unity_ws/install/description/share/description/launch
+creating /home/dawid/ros2_unity_ws/install/description/share/description/config
+symbolically linking /home/dawid/ros2_unity_ws/build/description/config/joint_names_Złożenie_cale_urdf.yaml -> /home/dawid/ros2_unity_ws/install/description/share/description/config

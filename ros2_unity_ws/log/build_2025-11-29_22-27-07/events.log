@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000755] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000787] (description) JobQueued: {'identifier': 'description', 'dependencies': OrderedDict()}
+[0.000808] (keyboard_teleop) JobQueued: {'identifier': 'keyboard_teleop', 'dependencies': OrderedDict()}
+[0.000825] (obstacle_avoidance) JobQueued: {'identifier': 'obstacle_avoidance', 'dependencies': OrderedDict()}
+[0.000842] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.000859] (controller) JobStarted: {'identifier': 'controller'}
+[0.024505] (description) JobStarted: {'identifier': 'description'}
+[0.041360] (keyboard_teleop) JobStarted: {'identifier': 'keyboard_teleop'}
+[0.063016] (obstacle_avoidance) JobStarted: {'identifier': 'obstacle_avoidance'}
+[0.098968] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.100764] (-) TimerEvent: {}
+[0.152150] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.152714] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[0.159123] (controller) Command: {'cmd': ['/bin/cmake', '--build', '/home/dawid/ros2_unity_ws/build/controller', '--', '-j16', '-l16'], 'cwd': '/home/dawid/ros2_unity_ws/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dawid'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/dawid/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dawid'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '181710'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dawid/ros2_unity_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dawid'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dawid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/bin:/usr/bin:/home/dawid/.local/bin:/home/dawid/.local/lib/python3.10/site-packages/labelImg/labelImg.py'), ('SESSION_MANAGER', 'local/dawid-ROG-Flow-X13-GV301QH-GV301QH:@/tmp/.ICE-unix/1906,unix/dawid-ROG-Flow-X13-GV301QH-GV301QH:/tmp/.ICE-unix/1906'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9332d5ab_769f_44f6_9ddb_03b018f393c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/home/dawid/ros2_unity_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dawid/ros2_unity_ws/build/controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/dawid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dawid/ros2_unity_ws/install/controller:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble')]), 'shell': False}
+[0.201223] (-) TimerEvent: {}
+[0.303525] (-) TimerEvent: {}
+[0.404845] (-) TimerEvent: {}
+[0.506675] (-) TimerEvent: {}
+[0.608723] (-) TimerEvent: {}
+[0.710349] (-) TimerEvent: {}
+[0.812003] (-) TimerEvent: {}
+[0.913847] (-) TimerEvent: {}
+[1.015779] (-) TimerEvent: {}
+[1.117660] (-) TimerEvent: {}
+[1.219172] (-) TimerEvent: {}
+[1.320302] (-) TimerEvent: {}
+[1.422527] (-) TimerEvent: {}
+[1.524675] (-) TimerEvent: {}
+[1.626258] (-) TimerEvent: {}
+[1.727715] (-) TimerEvent: {}
+[1.829415] (-) TimerEvent: {}
+[1.931292] (-) TimerEvent: {}
+[2.032582] (-) TimerEvent: {}
+[2.133635] (-) TimerEvent: {}
+[2.234064] (-) TimerEvent: {}
+[2.334321] (-) TimerEvent: {}
+[2.434572] (-) TimerEvent: {}
+[2.535229] (-) TimerEvent: {}
+[2.636571] (-) TimerEvent: {}
+[2.737150] (-) TimerEvent: {}
+[2.838833] (-) TimerEvent: {}
+[2.940016] (-) TimerEvent: {}
+[3.040600] (-) TimerEvent: {}
+[3.141930] (-) TimerEvent: {}
+[3.242777] (-) TimerEvent: {}
+[3.344952] (-) TimerEvent: {}
+[3.447311] (-) TimerEvent: {}
+[3.548932] (-) TimerEvent: {}
+[3.649200] (-) TimerEvent: {}
+[3.749496] (-) TimerEvent: {}
+[3.849793] (-) TimerEvent: {}
+[3.950083] (-) TimerEvent: {}
+[4.054232] (-) TimerEvent: {}
+[4.155814] (-) TimerEvent: {}
+[4.257422] (-) TimerEvent: {}
+[4.358285] (-) TimerEvent: {}
+[4.458784] (-) TimerEvent: {}
+[4.560259] (-) TimerEvent: {}
+[4.662071] (-) TimerEvent: {}
+[4.763539] (-) TimerEvent: {}
+[4.865098] (-) TimerEvent: {}
+[4.966235] (-) TimerEvent: {}
+[5.067691] (-) TimerEvent: {}
+[5.169303] (-) TimerEvent: {}
+[5.270081] (-) TimerEvent: {}
+[5.371179] (-) TimerEvent: {}
+[5.473011] (-) TimerEvent: {}
+[5.573405] (-) TimerEvent: {}
+[5.673677] (-) TimerEvent: {}
+[5.774319] (-) TimerEvent: {}
+[5.875740] (-) TimerEvent: {}
+[5.977260] (-) TimerEvent: {}
+[6.078723] (-) TimerEvent: {}
+[6.180650] (-) TimerEvent: {}
+[6.282604] (-) TimerEvent: {}
+[6.384075] (-) TimerEvent: {}
+[6.484541] (-) TimerEvent: {}
+[6.585995] (-) TimerEvent: {}
+[6.686514] (-) TimerEvent: {}
+[6.787177] (-) TimerEvent: {}
+[6.888608] (-) TimerEvent: {}
+[6.989844] (-) TimerEvent: {}
+[7.091274] (-) TimerEvent: {}
+[7.191638] (-) TimerEvent: {}
+[7.292216] (-) TimerEvent: {}
+[7.393527] (-) TimerEvent: {}
+[7.494952] (-) TimerEvent: {}
+[7.526832] (controller) CommandEnded: {'returncode': 0}
+[7.532440] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[7.572182] (controller) Command: {'cmd': ['/bin/cmake', '--install', '/home/dawid/ros2_unity_ws/build/controller'], 'cwd': '/home/dawid/ros2_unity_ws/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dawid'), ('LC_TIME', 'cs_CZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('STM32CubeMX_PATH', '/home/dawid/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dawid'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'cs_CZ.UTF-8'), ('SYSTEMD_EXEC_PID', '181710'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dawid/ros2_unity_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dawid'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dawid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/bin:/usr/bin:/home/dawid/.local/bin:/home/dawid/.local/lib/python3.10/site-packages/labelImg/labelImg.py'), ('SESSION_MANAGER', 'local/dawid-ROG-Flow-X13-GV301QH-GV301QH:@/tmp/.ICE-unix/1906,unix/dawid-ROG-Flow-X13-GV301QH-GV301QH:/tmp/.ICE-unix/1906'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'cs_CZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9332d5ab_769f_44f6_9ddb_03b018f393c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'cs_CZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.161'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/home/dawid/ros2_unity_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'cs_CZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'cs_CZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'cs_CZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dawid/ros2_unity_ws/build/controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/dawid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'cs_CZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dawid/ros2_unity_ws/install/controller:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble')]), 'shell': False}
+[7.595378] (-) TimerEvent: {}
+[7.607265] (controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.608480] (controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.612375] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/launch/controller.launch.py\n'}
+[7.614506] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/config/controllers.yaml\n'}
+[7.615510] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[7.615641] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[7.615753] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[7.616647] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[7.618044] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/path.sh\n'}
+[7.619427] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/path.dsv\n'}
+[7.621036] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.bash\n'}
+[7.622466] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.sh\n'}
+[7.623272] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.zsh\n'}
+[7.623379] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.dsv\n'}
+[7.623499] (controller) StdoutLine: {'line': b'-- Symlinking: /home/dawid/ros2_unity_ws/install/controller/share/controller/package.dsv\n'}
+[7.693870] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[7.694484] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[7.694567] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[7.695395] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/package.xml\n'}
+[7.696633] (-) TimerEvent: {}
+[7.713238] (controller) CommandEnded: {'returncode': 0}
+[7.801524] (-) TimerEvent: {}
+[7.816420] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[7.901974] (-) TimerEvent: {}
+[8.003793] (-) TimerEvent: {}
+[8.105826] (-) TimerEvent: {}
+[8.207410] (-) TimerEvent: {}
+[8.308567] (-) TimerEvent: {}
+[8.408939] (-) TimerEvent: {}
+[8.509506] (-) TimerEvent: {}
+[8.611717] (-) TimerEvent: {}
+[8.712629] (-) TimerEvent: {}
+[8.814614] (-) TimerEvent: {}
+[8.916362] (-) TimerEvent: {}
+[9.017781] (-) TimerEvent: {}
+[9.119283] (-) TimerEvent: {}
+[9.221193] (-) TimerEvent: {}
+[9.322623] (-) TimerEvent: {}
+[9.424034] (-) TimerEvent: {}
+[9.526013] (-) TimerEvent: {}
+[9.627033] (-) TimerEvent: {}
+[9.728241] (-) TimerEvent: {}
+[9.828549] (-) TimerEvent: {}
+[9.929163] (-) TimerEvent: {}
+[10.030810] (-) TimerEvent: {}
+[10.132376] (-) TimerEvent: {}
+[10.234060] (-) TimerEvent: {}
+[10.335379] (-) TimerEvent: {}
+[10.437134] (-) TimerEvent: {}
+[10.538171] (-) TimerEvent: {}
+[10.639581] (-) TimerEvent: {}
+[10.741258] (-) TimerEvent: {}
+[10.843266] (-) TimerEvent: {}
+[10.944678] (-) TimerEvent: {}
+[11.046067] (-) TimerEvent: {}
+[11.147447] (-) TimerEvent: {}
+[11.249086] (-) TimerEvent: {}
+[11.350822] (-) TimerEvent: {}
+[11.451869] (-) TimerEvent: {}
+[11.553534] (-) TimerEvent: {}
+[11.654973] (-) TimerEvent: {}
+[11.755515] (-) TimerEvent: {}
+[11.857183] (-) TimerEvent: {}
+[11.958742] (-) TimerEvent: {}
+[12.059321] (-) TimerEvent: {}
+[12.111844] (obstacle_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/obstacle_avoidance', 'build', '--build-base', '/home/dawid/ros2_unity_ws/build/obstacle_avoidance/build', 'install', '--record', '/home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dawid/ros2_unity_ws/src/obstacle_avoidance', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dawid', 'LC_TIME': 'cs_CZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'STM32CubeMX_PATH': '/home/dawid/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dawid', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'cs_CZ.UTF-8', 'SYSTEMD_EXEC_PID': '181710', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dawid', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dawid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/bin:/usr/bin:/home/dawid/.local/bin:/home/dawid/.local/lib/python3.10/site-packages/labelImg/labelImg.py', 'SESSION_MANAGER': 'local/dawid-ROG-Flow-X13-GV301QH-GV301QH:@/tmp/.ICE-unix/1906,unix/dawid-ROG-Flow-X13-GV301QH-GV301QH:/tmp/.ICE-unix/1906', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'cs_CZ.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9332d5ab_769f_44f6_9ddb_03b018f393c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'cs_CZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.161', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/home/dawid/ros2_unity_ws/install/controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'cs_CZ.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'cs_CZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'cs_CZ.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dawid/ros2_unity_ws/build/obstacle_avoidance', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/dawid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dawid/ros2_unity_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'cs_CZ.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/controller'}, 'shell': False}
+[12.122940] (description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/description', 'build', '--build-base', '/home/dawid/ros2_unity_ws/build/description/build', 'install', '--record', '/home/dawid/ros2_unity_ws/build/description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dawid/ros2_unity_ws/src/description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dawid', 'LC_TIME': 'cs_CZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'STM32CubeMX_PATH': '/home/dawid/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dawid', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'cs_CZ.UTF-8', 'SYSTEMD_EXEC_PID': '181710', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dawid', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dawid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/bin:/usr/bin:/home/dawid/.local/bin:/home/dawid/.local/lib/python3.10/site-packages/labelImg/labelImg.py', 'SESSION_MANAGER': 'local/dawid-ROG-Flow-X13-GV301QH-GV301QH:@/tmp/.ICE-unix/1906,unix/dawid-ROG-Flow-X13-GV301QH-GV301QH:/tmp/.ICE-unix/1906', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'cs_CZ.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9332d5ab_769f_44f6_9ddb_03b018f393c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'cs_CZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.161', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/home/dawid/ros2_unity_ws/install/controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'cs_CZ.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'cs_CZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'cs_CZ.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dawid/ros2_unity_ws/build/description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/dawid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'cs_CZ.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/controller'}, 'shell': False}
+[12.152763] (keyboard_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_teleop', 'build', '--build-base', '/home/dawid/ros2_unity_ws/build/keyboard_teleop/build', 'install', '--record', '/home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dawid/ros2_unity_ws/src/keyboard_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dawid', 'LC_TIME': 'cs_CZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'STM32CubeMX_PATH': '/home/dawid/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dawid', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'cs_CZ.UTF-8', 'SYSTEMD_EXEC_PID': '181710', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dawid', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dawid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/bin:/usr/bin:/home/dawid/.local/bin:/home/dawid/.local/lib/python3.10/site-packages/labelImg/labelImg.py', 'SESSION_MANAGER': 'local/dawid-ROG-Flow-X13-GV301QH-GV301QH:@/tmp/.ICE-unix/1906,unix/dawid-ROG-Flow-X13-GV301QH-GV301QH:/tmp/.ICE-unix/1906', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'cs_CZ.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9332d5ab_769f_44f6_9ddb_03b018f393c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'cs_CZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.161', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/home/dawid/ros2_unity_ws/install/controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'cs_CZ.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'cs_CZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'cs_CZ.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dawid/ros2_unity_ws/build/keyboard_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/dawid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dawid/ros2_unity_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'cs_CZ.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/controller'}, 'shell': False}
+[12.174340] (-) TimerEvent: {}
+[12.175947] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/build', 'install', '--record', '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dawid', 'LC_TIME': 'cs_CZ.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'STM32CubeMX_PATH': '/home/dawid/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dawid', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'cs_CZ.UTF-8', 'SYSTEMD_EXEC_PID': '181710', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dawid', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dawid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/bin:/usr/bin:/home/dawid/.local/bin:/home/dawid/.local/lib/python3.10/site-packages/labelImg/labelImg.py', 'SESSION_MANAGER': 'local/dawid-ROG-Flow-X13-GV301QH-GV301QH:@/tmp/.ICE-unix/1906,unix/dawid-ROG-Flow-X13-GV301QH-GV301QH:/tmp/.ICE-unix/1906', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'cs_CZ.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9332d5ab_769f_44f6_9ddb_03b018f393c9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'cs_CZ.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.161', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/home/dawid/ros2_unity_ws/install/controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'cs_CZ.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'cs_CZ.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'cs_CZ.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/dawid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'cs_CZ.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/dawid/ros2_unity_ws/install/controller'}, 'shell': False}
+[12.274690] (-) TimerEvent: {}
+[12.376474] (-) TimerEvent: {}
+[12.477980] (-) TimerEvent: {}
+[12.579082] (-) TimerEvent: {}
+[12.680743] (-) TimerEvent: {}
+[12.782425] (-) TimerEvent: {}
+[12.884065] (-) TimerEvent: {}
+[12.985697] (-) TimerEvent: {}
+[13.086244] (-) TimerEvent: {}
+[13.187810] (-) TimerEvent: {}
+[13.288634] (-) TimerEvent: {}
+[13.389613] (-) TimerEvent: {}
+[13.491251] (-) TimerEvent: {}
+[13.592926] (-) TimerEvent: {}
+[13.693480] (-) TimerEvent: {}
+[13.795398] (-) TimerEvent: {}
+[13.896855] (-) TimerEvent: {}
+[13.998499] (-) TimerEvent: {}
+[14.100367] (-) TimerEvent: {}
+[14.201150] (-) TimerEvent: {}
+[14.302577] (-) TimerEvent: {}
+[14.404384] (-) TimerEvent: {}
+[14.505734] (-) TimerEvent: {}
+[14.606827] (-) TimerEvent: {}
+[14.708701] (-) TimerEvent: {}
+[14.782543] (obstacle_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[14.809127] (-) TimerEvent: {}
+[14.870987] (keyboard_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[14.880424] (description) StdoutLine: {'line': b'running egg_info\n'}
+[14.882289] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[14.909484] (-) TimerEvent: {}
+[14.932152] (obstacle_avoidance) StdoutLine: {'line': b'writing ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO\n'}
+[14.933850] (obstacle_avoidance) StdoutLine: {'line': b'writing dependency_links to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt\n'}
+[14.935795] (obstacle_avoidance) StdoutLine: {'line': b'writing entry points to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt\n'}
+[14.936812] (obstacle_avoidance) StdoutLine: {'line': b'writing requirements to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt\n'}
+[14.936918] (obstacle_avoidance) StdoutLine: {'line': b'writing top-level names to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt\n'}
+[14.994241] (keyboard_teleop) StdoutLine: {'line': b'writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO\n'}
+[14.994465] (keyboard_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt\n'}
+[14.994600] (keyboard_teleop) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt\n'}
+[14.994708] (keyboard_teleop) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt\n'}
+[14.994830] (keyboard_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt\n'}
+[14.995747] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[14.995947] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[14.996061] (description) StdoutLine: {'line': b'writing ../../build/description/description.egg-info/PKG-INFO\n'}
+[14.996170] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[14.996308] (description) StdoutLine: {'line': b'writing dependency_links to ../../build/description/description.egg-info/dependency_links.txt\n'}
+[14.996398] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[14.996455] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[14.996537] (description) StdoutLine: {'line': b'writing requirements to ../../build/description/description.egg-info/requires.txt\n'}
+[14.996623] (description) StdoutLine: {'line': b'writing top-level names to ../../build/description/description.egg-info/top_level.txt\n'}
+[15.009678] (-) TimerEvent: {}
+[15.111184] (-) TimerEvent: {}
+[15.213053] (-) TimerEvent: {}
+[15.314802] (-) TimerEvent: {}
+[15.416486] (-) TimerEvent: {}
+[15.499758] (obstacle_avoidance) StderrLine: {'line': b'\x1b[2;36m[11/29/25 22:27:24]\x1b[0m\x1b[2;36m \x1b[0m\x1b[1;31mERROR   \x1b[0m listing git files failed - pretending there   \x1b]8;id=644002;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\x1b\\\x1b[2mgit.py\x1b[0m\x1b]8;;\x1b\\\x1b[2m:\x1b[0m\x1b]8;id=899666;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\x1b\\\x1b[2m26\x1b[0m\x1b]8;;\x1b\\\n'}
+[15.500003] (obstacle_avoidance) StderrLine: {'line': b"\x1b[2;36m                    \x1b[0m         aren't any                                    \x1b[2m         \x1b[0m\n"}
+[15.501726] (obstacle_avoidance) StdoutLine: {'line': b"reading manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[15.507592] (obstacle_avoidance) StdoutLine: {'line': b"writing manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[15.507760] (obstacle_avoidance) StdoutLine: {'line': b'running build\n'}
+[15.509136] (obstacle_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[15.510750] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/obstacle_avoidance_copy.py -> /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[15.513785] (obstacle_avoidance) StdoutLine: {'line': b'running install\n'}
+[15.516745] (-) TimerEvent: {}
+[15.540767] (obstacle_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[15.573152] (description) StderrLine: {'line': b'\x1b[2;36m[11/29/25 22:27:24]\x1b[0m\x1b[2;36m \x1b[0m\x1b[1;31mERROR   \x1b[0m listing git files failed - pretending there   \x1b]8;id=478321;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\x1b\\\x1b[2mgit.py\x1b[0m\x1b]8;;\x1b\\\x1b[2m:\x1b[0m\x1b]8;id=992825;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\x1b\\\x1b[2m26\x1b[0m\x1b]8;;\x1b\\\n'}
+[15.573403] (description) StderrLine: {'line': b"\x1b[2;36m                    \x1b[0m         aren't any                                    \x1b[2m         \x1b[0m\n"}
+[15.573865] (keyboard_teleop) StderrLine: {'line': b'\x1b[2;36m[11/29/25 22:27:24]\x1b[0m\x1b[2;36m \x1b[0m\x1b[1;31mERROR   \x1b[0m listing git files failed - pretending there   \x1b]8;id=572348;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\x1b\\\x1b[2mgit.py\x1b[0m\x1b]8;;\x1b\\\x1b[2m:\x1b[0m\x1b]8;id=623780;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\x1b\\\x1b[2m26\x1b[0m\x1b]8;;\x1b\\\n'}
+[15.574025] (keyboard_teleop) StderrLine: {'line': b"\x1b[2;36m                    \x1b[0m         aren't any                                    \x1b[2m         \x1b[0m\n"}
+[15.574161] (description) StdoutLine: {'line': b"reading manifest file '../../build/description/description.egg-info/SOURCES.txt'\n"}
+[15.574683] (ros_tcp_endpoint) StderrLine: {'line': b'\x1b[2;36m[11/29/25 22:27:24]\x1b[0m\x1b[2;36m \x1b[0m\x1b[1;31mERROR   \x1b[0m listing git files failed - pretending there   \x1b]8;id=938599;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\x1b\\\x1b[2mgit.py\x1b[0m\x1b]8;;\x1b\\\x1b[2m:\x1b[0m\x1b]8;id=149224;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\x1b\\\x1b[2m26\x1b[0m\x1b]8;;\x1b\\\n'}
+[15.574846] (ros_tcp_endpoint) StderrLine: {'line': b"\x1b[2;36m                    \x1b[0m         aren't any                                    \x1b[2m         \x1b[0m\n"}
+[15.574952] (keyboard_teleop) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'\n"}
+[15.575078] (description) StdoutLine: {'line': b"writing manifest file '../../build/description/description.egg-info/SOURCES.txt'\n"}
+[15.575201] (description) StdoutLine: {'line': b'running build\n'}
+[15.575321] (description) StdoutLine: {'line': b'running build_py\n'}
+[15.575575] (description) StdoutLine: {'line': b'running install\n'}
+[15.576405] (keyboard_teleop) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'\n"}
+[15.578191] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[15.579233] (keyboard_teleop) StdoutLine: {'line': b'running build\n'}
+[15.580310] (keyboard_teleop) StdoutLine: {'line': b'running build_py\n'}
+[15.581684] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[15.582610] (keyboard_teleop) StdoutLine: {'line': b'running install\n'}
+[15.583184] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[15.583333] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[15.583461] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[15.588608] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[15.601067] (description) StdoutLine: {'line': b'running install_lib\n'}
+[15.613007] (keyboard_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[15.617092] (-) TimerEvent: {}
+[15.619931] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[15.694472] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance_copy.py -> /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance\n'}
+[15.699979] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance_copy.py to obstacle_avoidance_copy.cpython-310.pyc\n'}
+[15.710723] (obstacle_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[15.713047] (obstacle_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.717351] (-) TimerEvent: {}
+[15.741703] (keyboard_teleop) StdoutLine: {'line': b'running install_data\n'}
+[15.741989] (keyboard_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.743298] (description) StdoutLine: {'line': b'running install_data\n'}
+[15.743776] (description) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.745611] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[15.745795] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.759701] (obstacle_avoidance) StdoutLine: {'line': b"removing '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.760080] (obstacle_avoidance) StdoutLine: {'line': b'Copying ../../build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info\n'}
+[15.761155] (obstacle_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[15.780575] (keyboard_teleop) StdoutLine: {'line': b"removing '/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.783278] (keyboard_teleop) StdoutLine: {'line': b'Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info\n'}
+[15.788789] (keyboard_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[15.793737] (description) StdoutLine: {'line': b"removing '/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.795086] (description) StdoutLine: {'line': b'Copying ../../build/description/description.egg-info to /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description-0.0.0-py3.10.egg-info\n'}
+[15.801798] (description) StdoutLine: {'line': b'running install_scripts\n'}
+[15.808849] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[15.809326] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info\n'}
+[15.815213] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[15.817536] (-) TimerEvent: {}
+[15.919101] (-) TimerEvent: {}
+[16.020535] (-) TimerEvent: {}
+[16.121958] (-) TimerEvent: {}
+[16.223422] (-) TimerEvent: {}
+[16.313779] (obstacle_avoidance) StdoutLine: {'line': b'Installing obstacle_avoidance script to /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/obstacle_avoidance\n'}
+[16.314047] (obstacle_avoidance) StdoutLine: {'line': b'Installing obstacle_avoidance_copy script to /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/obstacle_avoidance\n'}
+[16.314313] (obstacle_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log'\n"}
+[16.320019] (keyboard_teleop) StdoutLine: {'line': b'Installing keyboard_teleop script to /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/keyboard_teleop\n'}
+[16.320423] (keyboard_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log'\n"}
+[16.323413] (-) TimerEvent: {}
+[16.323693] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[16.323836] (description) StdoutLine: {'line': b"writing list of installed files to '/home/dawid/ros2_unity_ws/build/description/install.log'\n"}
+[16.324102] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log'\n"}
+[16.423710] (-) TimerEvent: {}
+[16.452838] (obstacle_avoidance) CommandEnded: {'returncode': 0}
+[16.485239] (obstacle_avoidance) JobEnded: {'identifier': 'obstacle_avoidance', 'rc': 0}
+[16.492925] (keyboard_teleop) CommandEnded: {'returncode': 0}
+[16.524086] (keyboard_teleop) JobEnded: {'identifier': 'keyboard_teleop', 'rc': 0}
+[16.528596] (-) TimerEvent: {}
+[16.529111] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[16.540365] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[16.548561] (description) CommandEnded: {'returncode': 0}
+[16.565855] (description) JobEnded: {'identifier': 'description', 'rc': 0}
+[16.569556] (-) EventReactorShutdown: {}

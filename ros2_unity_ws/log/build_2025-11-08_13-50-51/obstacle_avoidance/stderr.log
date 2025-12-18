@@ -1,0 +1,4 @@
+[2;36m[11/08/25 13:50:54][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=443266;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=835317;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2;36m                    [0m         there aren't any                          [2m         [0m
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (obstacle_avoidance.py, line 55)
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (obstacle_avoidance_copy.py, line 55)

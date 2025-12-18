@@ -1,0 +1,23 @@
+[0.026s] Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16
+[1.616s] Invoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16
+[1.626s] Invoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller
+[1.633s] -- Install configuration: ""
+[1.633s] -- Execute custom install script
+[1.634s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/launch/controller.launch.py
+[1.635s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/config/controllers.yaml
+[1.635s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[1.636s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[1.636s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/ament_prefix_path.sh
+[1.636s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/ament_prefix_path.dsv
+[1.637s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/path.sh
+[1.637s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/environment/path.dsv
+[1.637s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.bash
+[1.637s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.sh
+[1.637s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.zsh
+[1.638s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/local_setup.dsv
+[1.638s] -- Symlinking: /home/dawid/ros2_unity_ws/install/controller/share/controller/package.dsv
+[1.648s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/ament_index/resource_index/packages/controller
+[1.649s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/cmake/controllerConfig.cmake
+[1.649s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[1.649s] -- Up-to-date symlink: /home/dawid/ros2_unity_ws/install/controller/share/controller/package.xml
+[1.651s] Invoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller

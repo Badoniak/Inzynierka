@@ -1,0 +1,38 @@
+[2.951s] Invoking command in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance': PYTHONPATH=/home/dawid/ros2_unity_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build install --record /home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[3.505s] running egg_info
+[3.505s] creating ../../build/obstacle_avoidance/obstacle_avoidance.egg-info
+[3.528s] writing ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO
+[3.528s] writing dependency_links to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt
+[3.529s] writing entry points to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt
+[3.529s] writing requirements to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt
+[3.529s] writing top-level names to ../../build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt
+[3.529s] writing manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[3.629s] [2;36m[11/03/25 02:10:37][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any  ]8;id=792389;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=973414;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[3.630s] reading manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[3.630s] writing manifest file '../../build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[3.630s] running build
+[3.630s] running build_py
+[3.630s] creating /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build
+[3.631s] creating /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib
+[3.631s] creating /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[3.631s] copying obstacle_avoidance/obstacle_avoidance.py -> /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[3.631s] copying obstacle_avoidance/__init__.py -> /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[3.631s] running install
+[3.636s] running install_lib
+[3.662s] creating /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance
+[3.662s] copying /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance.py -> /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance
+[3.662s] copying /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build/lib/obstacle_avoidance/__init__.py -> /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance
+[3.662s] byte-compiling /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[3.664s] byte-compiling /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/__init__.py to __init__.cpython-310.pyc
+[3.664s] running install_data
+[3.664s] creating /home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/ament_index
+[3.664s] creating /home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/ament_index/resource_index
+[3.664s] creating /home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/ament_index/resource_index/packages
+[3.665s] copying resource/obstacle_avoidance -> /home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/ament_index/resource_index/packages
+[3.665s] copying package.xml -> /home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance
+[3.665s] running install_egg_info
+[3.689s] Copying ../../build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance-0.0.0-py3.10.egg-info
+[3.689s] running install_scripts
+[3.798s] Installing obstacle_avoidance script to /home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/obstacle_avoidance
+[3.798s] writing list of installed files to '/home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log'
+[3.898s] Invoked command in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build install --record /home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data

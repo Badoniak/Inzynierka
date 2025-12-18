@@ -1,0 +1,15 @@
+[2;36m[11/29/25 20:34:11][0m[2;36m [0m[1;31mERROR   [0m list ]8;id=476513;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=660894;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2;36m                    [0m         ing  [2m         [0m
+[2;36m                    [0m         git  [2m         [0m
+[2;36m                    [0m         file [2m         [0m
+[2;36m                    [0m         s    [2m         [0m
+[2;36m                    [0m         fail [2m         [0m
+[2;36m                    [0m         ed - [2m         [0m
+[2;36m                    [0m         pret [2m         [0m
+[2;36m                    [0m         endi [2m         [0m
+[2;36m                    [0m         ng   [2m         [0m
+[2;36m                    [0m         ther [2m         [0m
+[2;36m                    [0m         e    [2m         [0m
+[2;36m                    [0m         aren [2m         [0m
+[2;36m                    [0m         't   [2m         [0m
+[2;36m                    [0m         any  [2m         [0m

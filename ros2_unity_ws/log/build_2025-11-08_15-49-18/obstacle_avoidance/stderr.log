@@ -1,0 +1,7 @@
+[2;36m[11/08/25 15:49:22][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any       ]8;id=703806;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=529116;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+  File "/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/obstacle_avoidance.py", line 95
+    elif (front > self.safe.distance) & (diff < 0.2)
+                                                    ^
+SyntaxError: expected ':'
+
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (obstacle_avoidance_copy.py, line 55)

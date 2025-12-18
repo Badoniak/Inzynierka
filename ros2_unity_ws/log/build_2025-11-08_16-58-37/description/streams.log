@@ -1,0 +1,20 @@
+[2.447s] Invoking command in '/home/dawid/ros2_unity_ws/src/description': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/description build --build-base /home/dawid/ros2_unity_ws/build/description/build install --record /home/dawid/ros2_unity_ws/build/description/install.log --single-version-externally-managed install_data
+[2.928s] running egg_info
+[2.948s] writing ../../build/description/description.egg-info/PKG-INFO
+[2.948s] writing dependency_links to ../../build/description/description.egg-info/dependency_links.txt
+[2.949s] writing requirements to ../../build/description/description.egg-info/requires.txt
+[2.949s] writing top-level names to ../../build/description/description.egg-info/top_level.txt
+[3.034s] [2;36m[11/08/25 16:58:40][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any       ]8;id=953639;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=934137;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[3.034s] reading manifest file '../../build/description/description.egg-info/SOURCES.txt'
+[3.035s] writing manifest file '../../build/description/description.egg-info/SOURCES.txt'
+[3.035s] running build
+[3.035s] running build_py
+[3.035s] running install
+[3.039s] running install_lib
+[3.060s] running install_data
+[3.061s] running install_egg_info
+[3.081s] removing '/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description-0.0.0-py3.10.egg-info' (and everything under it)
+[3.081s] Copying ../../build/description/description.egg-info to /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description-0.0.0-py3.10.egg-info
+[3.081s] running install_scripts
+[3.176s] writing list of installed files to '/home/dawid/ros2_unity_ws/build/description/install.log'
+[3.230s] Invoked command in '/home/dawid/ros2_unity_ws/src/description' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/description build --build-base /home/dawid/ros2_unity_ws/build/description/build install --record /home/dawid/ros2_unity_ws/build/description/install.log --single-version-externally-managed install_data

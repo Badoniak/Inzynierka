@@ -1,0 +1,24 @@
+[2.382s] Invoking command in '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint': PYTHONPATH=/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/build install --record /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data
+[2.842s] running egg_info
+[2.861s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[2.862s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[2.862s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[2.862s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[2.862s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[2.948s] [2;36m[12/14/25 00:14:07][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=693036;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=752166;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2.948s] [2;36m                    [0m         there aren't any                          [2m         [0m
+[2.949s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.950s] adding license file 'LICENSE'
+[2.950s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.950s] running build
+[2.951s] running build_py
+[2.952s] running install
+[2.958s] running install_lib
+[2.979s] running install_data
+[2.980s] running install_egg_info
+[2.998s] removing '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[2.998s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[2.999s] running install_scripts
+[3.088s] Installing default_server_endpoint script to /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[3.088s] writing list of installed files to '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log'
+[3.152s] Invoked command in '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/build install --record /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data

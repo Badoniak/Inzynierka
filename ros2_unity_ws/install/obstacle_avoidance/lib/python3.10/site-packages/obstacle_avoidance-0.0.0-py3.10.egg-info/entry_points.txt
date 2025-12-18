@@ -1,0 +1,6 @@
+[console_scripts]
+FuzzyTS_GoTo = obstacle_avoidance.FuzzyTS_GoTo:main
+FuzzyTS_GoTo_V2 = obstacle_avoidance.FuzzyTS_GoTo_V2:main
+FuzzyTS_between_walls = obstacle_avoidance.FuzzyTS_between_walls:main
+FuzzyTS_obstacle_avoidance = obstacle_avoidance.FuzzyTS_obstacle_avoidance:main
+obstacle_avoidance = obstacle_avoidance.obstacle_avoidance:main

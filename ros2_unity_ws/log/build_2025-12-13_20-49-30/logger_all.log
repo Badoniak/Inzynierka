@@ -1,0 +1,339 @@
+[0.102s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/bin/colcon', 'build'][0m
+[0.102s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x764f7e0942b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764f7e05bd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764f7e05bd90>>, mixin_verb=('build',))[0m
+[0.310s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.311s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.311s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.311s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.311s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.311s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.311s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/dawid/ros2_unity_ws'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'ignore'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'ignore_ament_install'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['colcon_pkg']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'colcon_pkg'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['colcon_meta']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'colcon_meta'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['ros']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'ros'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/controller' with type 'ros.ament_cmake' and name 'controller'[0m
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extension 'ignore'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extension 'ignore_ament_install'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extensions ['colcon_pkg']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extension 'colcon_pkg'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extensions ['colcon_meta']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extension 'colcon_meta'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extensions ['ros']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/description) by extension 'ros'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/description' with type 'ros.ament_python' and name 'description'[0m
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extension 'ignore'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extension 'ignore_ament_install'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extensions ['colcon_pkg']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extension 'colcon_pkg'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extensions ['colcon_meta']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extension 'colcon_meta'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extensions ['ros']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_teleop) by extension 'ros'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/keyboard_teleop' with type 'ros.ament_python' and name 'keyboard_teleop'[0m
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extension 'ignore'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extension 'ignore_ament_install'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extensions ['colcon_pkg']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extension 'colcon_pkg'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extensions ['colcon_meta']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extension 'colcon_meta'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extensions ['ros']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/obstacle_avoidance) by extension 'ros'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/obstacle_avoidance' with type 'ros.ament_python' and name 'obstacle_avoidance'[0m
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extension 'ignore'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extension 'ignore_ament_install'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extensions ['colcon_pkg']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extension 'colcon_pkg'
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extensions ['colcon_meta']
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extension 'colcon_meta'
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extensions ['ros']
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_tcp_endpoint) by extension 'ros'
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros_tcp_endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'[0m
+[0.337s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.337s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.337s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.337s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.337s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.350s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.350s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.351s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 5 installed packages in /home/dawid/ros2_unity_ws/install[0m
+[0.353s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 393 installed packages in /opt/ros/humble[0m
+[0.354s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'cmake_args' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'cmake_target' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawid/ros2_unity_ws/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawid/ros2_unity_ws/install/controller', 'merge_install': False, 'path': '/home/dawid/ros2_unity_ws/src/controller', 'symlink_install': False, 'test_result_base': None}[0m
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'cmake_args' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'cmake_target' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawid/ros2_unity_ws/build/description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawid/ros2_unity_ws/install/description', 'merge_install': False, 'path': '/home/dawid/ros2_unity_ws/src/description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'cmake_args' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'cmake_target' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'keyboard_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawid/ros2_unity_ws/build/keyboard_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawid/ros2_unity_ws/install/keyboard_teleop', 'merge_install': False, 'path': '/home/dawid/ros2_unity_ws/src/keyboard_teleop', 'symlink_install': False, 'test_result_base': None}[0m
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'cmake_args' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'cmake_target' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'obstacle_avoidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'obstacle_avoidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawid/ros2_unity_ws/build/obstacle_avoidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawid/ros2_unity_ws/install/obstacle_avoidance', 'merge_install': False, 'path': '/home/dawid/ros2_unity_ws/src/obstacle_avoidance', 'symlink_install': False, 'test_result_base': None}[0m
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint', 'symlink_install': False, 'test_result_base': None}[0m
+[0.387s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.388s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.388s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/dawid/ros2_unity_ws/src/controller' with build type 'ament_cmake'
+[0.388s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/dawid/ros2_unity_ws/src/controller'
+[0.389s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.392s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dawid/ros2_unity_ws/src/description' with build type 'ament_python'
+[0.393s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('description', 'ament_prefix_path')
+[0.393s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/description/share/description/hook/ament_prefix_path.ps1'
+[0.393s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/description/share/description/hook/ament_prefix_path.dsv'
+[0.393s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/description/share/description/hook/ament_prefix_path.sh'
+[0.394s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.397s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dawid/ros2_unity_ws/src/keyboard_teleop' with build type 'ament_python'
+[0.397s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_teleop', 'ament_prefix_path')
+[0.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/hook/ament_prefix_path.ps1'
+[0.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/hook/ament_prefix_path.dsv'
+[0.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/hook/ament_prefix_path.sh'
+[0.398s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.401s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance' with build type 'ament_python'
+[0.401s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('obstacle_avoidance', 'ament_prefix_path')
+[0.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/ament_prefix_path.ps1'
+[0.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/ament_prefix_path.dsv'
+[0.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/ament_prefix_path.sh'
+[0.402s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.404s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint' with build type 'ament_python'
+[0.404s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.412s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16[0m
+[0.795s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dawid/ros2_unity_ws/src/description'
+[0.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.795s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.186s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dawid/ros2_unity_ws/src/keyboard_teleop'
+[1.186s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.187s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.572s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance'
+[1.572s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.572s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.009s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint'
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.013s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --build /home/dawid/ros2_unity_ws/build/controller -- -j16 -l16[0m
+[2.022s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dawid/ros2_unity_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller[0m
+[2.042s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(controller)
+[2.043s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dawid/ros2_unity_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint:/home/dawid/ros2_unity_ws/install/obstacle_avoidance:/home/dawid/ros2_unity_ws/install/keyboard_teleop:/home/dawid/ros2_unity_ws/install/description:/opt/ros/humble /bin/cmake --install /home/dawid/ros2_unity_ws/build/controller[0m
+[2.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller' for CMake module files
+[2.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller' for CMake config files
+[2.045s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('controller', 'cmake_prefix_path')
+[2.045s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[2.046s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[2.046s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[2.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/bin'
+[2.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/lib/pkgconfig/controller.pc'
+[2.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/lib/python3.10/site-packages'
+[2.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/bin'
+[2.047s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.ps1'
+[2.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.dsv'
+[2.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.sh'
+[2.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.bash'
+[2.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.zsh'
+[2.050s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dawid/ros2_unity_ws/install/controller/share/colcon-core/packages/controller)
+[2.050s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(controller)
+[2.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller' for CMake module files
+[2.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller' for CMake config files
+[2.051s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('controller', 'cmake_prefix_path')
+[2.051s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[2.052s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[2.052s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[2.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/bin'
+[2.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/lib/pkgconfig/controller.pc'
+[2.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/lib/python3.10/site-packages'
+[2.053s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/controller/bin'
+[2.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.ps1'
+[2.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.dsv'
+[2.054s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.sh'
+[2.054s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.bash'
+[2.054s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/controller/share/controller/package.zsh'
+[2.055s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dawid/ros2_unity_ws/install/controller/share/colcon-core/packages/controller)
+[2.839s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dawid/ros2_unity_ws/src/description': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/description build --build-base /home/dawid/ros2_unity_ws/build/description/build install --record /home/dawid/ros2_unity_ws/build/description/install.log --single-version-externally-managed install_data[0m
+[2.864s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance': PYTHONPATH=/home/dawid/ros2_unity_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build install --record /home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data[0m
+[2.867s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dawid/ros2_unity_ws/src/keyboard_teleop': PYTHONPATH=/home/dawid/ros2_unity_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/dawid/ros2_unity_ws/build/keyboard_teleop/build install --record /home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data[0m
+[2.868s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint': PYTHONPATH=/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/build install --record /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data[0m
+[3.609s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/description' for CMake module files
+[3.610s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dawid/ros2_unity_ws/src/description' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/description build --build-base /home/dawid/ros2_unity_ws/build/description/build install --record /home/dawid/ros2_unity_ws/build/description/install.log --single-version-externally-managed install_data[0m
+[3.610s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/description' for CMake config files
+[3.610s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/description/lib'
+[3.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/description/bin'
+[3.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/description/lib/pkgconfig/description.pc'
+[3.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages'
+[3.611s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('description', 'pythonpath')
+[3.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/description/share/description/hook/pythonpath.ps1'
+[3.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/description/share/description/hook/pythonpath.dsv'
+[3.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/description/share/description/hook/pythonpath.sh'
+[3.612s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/description/bin'
+[3.612s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(description)
+[3.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/description/share/description/package.ps1'
+[3.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dawid/ros2_unity_ws/install/description/share/description/package.dsv'
+[3.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/description/share/description/package.sh'
+[3.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/description/share/description/package.bash'
+[3.614s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/description/share/description/package.zsh'
+[3.614s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dawid/ros2_unity_ws/install/description/share/colcon-core/packages/description)
+[3.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/keyboard_teleop' for CMake module files
+[3.645s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dawid/ros2_unity_ws/src/keyboard_teleop' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/dawid/ros2_unity_ws/build/keyboard_teleop/build install --record /home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data[0m
+[3.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/keyboard_teleop' for CMake config files
+[3.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib'
+[3.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/keyboard_teleop/bin'
+[3.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/pkgconfig/keyboard_teleop.pc'
+[3.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages'
+[3.646s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_teleop', 'pythonpath')
+[3.646s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/hook/pythonpath.ps1'
+[3.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/hook/pythonpath.dsv'
+[3.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/hook/pythonpath.sh'
+[3.647s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/keyboard_teleop/bin'
+[3.647s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(keyboard_teleop)
+[3.648s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/package.ps1'
+[3.648s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/package.dsv'
+[3.648s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/package.sh'
+[3.649s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/package.bash'
+[3.649s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop/package.zsh'
+[3.649s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dawid/ros2_unity_ws/install/keyboard_teleop/share/colcon-core/packages/keyboard_teleop)
+[3.650s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint' for CMake module files
+[3.651s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dawid/ros2_unity_ws/src/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/build install --record /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data[0m
+[3.651s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint' for CMake config files
+[3.651s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib'
+[3.651s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/bin'
+[3.652s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[3.652s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[3.652s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[3.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[3.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[3.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[3.653s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/bin'
+[3.653s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros_tcp_endpoint)
+[3.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[3.654s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[3.654s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[3.654s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[3.655s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[3.655s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[3.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/obstacle_avoidance' for CMake module files
+[3.660s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dawid/ros2_unity_ws/src/obstacle_avoidance' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_avoidance build --build-base /home/dawid/ros2_unity_ws/build/obstacle_avoidance/build install --record /home/dawid/ros2_unity_ws/build/obstacle_avoidance/install.log --single-version-externally-managed install_data[0m
+[3.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/obstacle_avoidance' for CMake config files
+[3.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib'
+[3.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/bin'
+[3.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/pkgconfig/obstacle_avoidance.pc'
+[3.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/lib/python3.10/site-packages'
+[3.661s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('obstacle_avoidance', 'pythonpath')
+[3.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/pythonpath.ps1'
+[3.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/pythonpath.dsv'
+[3.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/hook/pythonpath.sh'
+[3.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/bin'
+[3.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(obstacle_avoidance)
+[3.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.ps1'
+[3.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.dsv'
+[3.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.sh'
+[3.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.bash'
+[3.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.zsh'
+[3.664s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dawid/ros2_unity_ws/install/obstacle_avoidance/share/colcon-core/packages/obstacle_avoidance)
+[3.664s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.664s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.664s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.664s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.669s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.669s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.669s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.677s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dawid/ros2_unity_ws/install/local_setup.ps1'
+[3.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/dawid/ros2_unity_ws/install/_local_setup_util_ps1.py'
+[3.679s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dawid/ros2_unity_ws/install/setup.ps1'
+[3.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dawid/ros2_unity_ws/install/local_setup.sh'
+[3.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/dawid/ros2_unity_ws/install/_local_setup_util_sh.py'
+[3.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dawid/ros2_unity_ws/install/setup.sh'
+[3.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dawid/ros2_unity_ws/install/local_setup.bash'
+[3.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dawid/ros2_unity_ws/install/setup.bash'
+[3.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dawid/ros2_unity_ws/install/local_setup.zsh'
+[3.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dawid/ros2_unity_ws/install/setup.zsh'

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating keyboard_teleop.egg-info
+writing keyboard_teleop.egg-info/PKG-INFO
+writing dependency_links to keyboard_teleop.egg-info/dependency_links.txt
+writing entry points to keyboard_teleop.egg-info/entry_points.txt
+writing requirements to keyboard_teleop.egg-info/requires.txt
+writing top-level names to keyboard_teleop.egg-info/top_level.txt
+writing manifest file 'keyboard_teleop.egg-info/SOURCES.txt'
+reading manifest file 'keyboard_teleop.egg-info/SOURCES.txt'
+writing manifest file 'keyboard_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard-teleop.egg-link (link to .)
+Installing keyboard_teleop script to /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/keyboard_teleop
+
+Installed /home/dawid/ros2_unity_ws/build/keyboard_teleop
+running symlink_data
+creating /home/dawid/ros2_unity_ws/install/keyboard_teleop/share/ament_index
+creating /home/dawid/ros2_unity_ws/install/keyboard_teleop/share/ament_index/resource_index
+creating /home/dawid/ros2_unity_ws/install/keyboard_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/dawid/ros2_unity_ws/build/keyboard_teleop/resource/keyboard_teleop -> /home/dawid/ros2_unity_ws/install/keyboard_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/dawid/ros2_unity_ws/build/keyboard_teleop/package.xml -> /home/dawid/ros2_unity_ws/install/keyboard_teleop/share/keyboard_teleop

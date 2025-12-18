@@ -1,0 +1,45 @@
+[1.992s] Invoking command in '/home/dawid/ros2_unity_ws/build/description': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dawid/ros2_unity_ws/build/description/build
+[2.401s] running develop
+[2.709s] Removing /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description.egg-link (link to .)
+[2.786s] Invoked command in '/home/dawid/ros2_unity_ws/build/description' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dawid/ros2_unity_ws/build/description/build
+[2.788s] Invoking command in '/home/dawid/ros2_unity_ws/src/description': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/description build --build-base /home/dawid/ros2_unity_ws/build/description/build install --record /home/dawid/ros2_unity_ws/build/description/install.log --single-version-externally-managed install_data --force
+[3.247s] running egg_info
+[3.266s] writing ../../build/description/description.egg-info/PKG-INFO
+[3.266s] writing dependency_links to ../../build/description/description.egg-info/dependency_links.txt
+[3.267s] writing requirements to ../../build/description/description.egg-info/requires.txt
+[3.267s] writing top-level names to ../../build/description/description.egg-info/top_level.txt
+[3.351s] [2;36m[11/02/25 19:05:44][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=611144;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=202321;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[3.351s] [2;36m                    [0m         there aren't any                          [2m         [0m
+[3.351s] reading manifest file '../../build/description/description.egg-info/SOURCES.txt'
+[3.352s] writing manifest file '../../build/description/description.egg-info/SOURCES.txt'
+[3.352s] running build
+[3.352s] running build_py
+[3.353s] creating /home/dawid/ros2_unity_ws/build/description/build
+[3.353s] creating /home/dawid/ros2_unity_ws/build/description/build/lib
+[3.353s] creating /home/dawid/ros2_unity_ws/build/description/build/lib/description
+[3.353s] copying description/__init__.py -> /home/dawid/ros2_unity_ws/build/description/build/lib/description
+[3.353s] running install
+[3.356s] running install_lib
+[3.376s] creating /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description
+[3.376s] copying /home/dawid/ros2_unity_ws/build/description/build/lib/description/__init__.py -> /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description
+[3.377s] byte-compiling /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description/__init__.py to __init__.cpython-310.pyc
+[3.377s] running install_data
+[3.377s] copying resource/description -> /home/dawid/ros2_unity_ws/install/description/share/ament_index/resource_index/packages
+[3.378s] copying package.xml -> /home/dawid/ros2_unity_ws/install/description/share/description
+[3.378s] copying urdf/ros2_control.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+[3.379s] copying urdf/interials.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+[3.379s] copying urdf/rover.urdf.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+[3.379s] copying urdf/gazebo_control.xacro -> /home/dawid/ros2_unity_ws/install/description/share/description/urdf
+[3.380s] copying meshes/BR_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+[3.382s] copying meshes/FL_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+[3.383s] copying meshes/BL_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+[3.384s] copying meshes/base_link.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+[3.395s] copying meshes/FR_wheel.STL -> /home/dawid/ros2_unity_ws/install/description/share/description/meshes
+[3.396s] copying launch/gazebo.launch.py -> /home/dawid/ros2_unity_ws/install/description/share/description/launch
+[3.397s] copying launch/rsp.launch.py -> /home/dawid/ros2_unity_ws/install/description/share/description/launch
+[3.397s] copying config/joint_names_Złożenie_cale_urdf.yaml -> /home/dawid/ros2_unity_ws/install/description/share/description/config
+[3.398s] running install_egg_info
+[3.417s] Copying ../../build/description/description.egg-info to /home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages/description-0.0.0-py3.10.egg-info
+[3.417s] running install_scripts
+[3.508s] writing list of installed files to '/home/dawid/ros2_unity_ws/build/description/install.log'
+[3.572s] Invoked command in '/home/dawid/ros2_unity_ws/src/description' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/description build --build-base /home/dawid/ros2_unity_ws/build/description/build install --record /home/dawid/ros2_unity_ws/build/description/install.log --single-version-externally-managed install_data --force

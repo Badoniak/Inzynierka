@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[2;36m[11/30/25 19:18:08][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=222821;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=409319;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2;36m                    [0m         there aren't any                          [2m         [0m
+reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+running install_scripts
+Installing default_server_endpoint script to /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+writing list of installed files to '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/install.log'

@@ -1,0 +1,34 @@
+running egg_info
+writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt
+writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt
+[2;36m[11/29/25 22:21:36][0m[2;36m [0m[1;31mERROR   [0m list ]8;id=827850;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=469080;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2;36m                    [0m         ing  [2m         [0m
+[2;36m                    [0m         git  [2m         [0m
+[2;36m                    [0m         file [2m         [0m
+[2;36m                    [0m         s    [2m         [0m
+[2;36m                    [0m         fail [2m         [0m
+[2;36m                    [0m         ed - [2m         [0m
+[2;36m                    [0m         pret [2m         [0m
+[2;36m                    [0m         endi [2m         [0m
+[2;36m                    [0m         ng   [2m         [0m
+[2;36m                    [0m         ther [2m         [0m
+[2;36m                    [0m         e    [2m         [0m
+[2;36m                    [0m         aren [2m         [0m
+[2;36m                    [0m         't   [2m         [0m
+[2;36m                    [0m         any  [2m         [0m
+reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_teleop script to /home/dawid/ros2_unity_ws/install/keyboard_teleop/lib/keyboard_teleop
+writing list of installed files to '/home/dawid/ros2_unity_ws/build/keyboard_teleop/install.log'

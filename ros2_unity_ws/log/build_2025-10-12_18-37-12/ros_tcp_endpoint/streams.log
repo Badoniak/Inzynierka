@@ -1,0 +1,28 @@
+[2.041s] Invoking command in '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint': PYTHONPATH=/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/build --no-deps symlink_data
+[2.481s] running develop
+[2.799s] running egg_info
+[2.799s] creating ros_tcp_endpoint.egg-info
+[2.819s] writing ros_tcp_endpoint.egg-info/PKG-INFO
+[2.819s] writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+[2.820s] writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+[2.820s] writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+[2.820s] writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+[2.820s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.904s] [2;36m[10/12/25 18:37:15][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending     ]8;id=348617;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=971246;file:///home/dawid/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[2.904s] [2;36m                    [0m         there aren't any                          [2m         [0m
+[2.905s] reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.905s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.978s] running build_ext
+[2.978s] Creating /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[2.978s] Installing default_server_endpoint script to /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[2.979s] 
+[2.979s] Installed /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint
+[2.979s] running symlink_data
+[2.979s] creating /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ament_index
+[2.979s] creating /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[2.979s] creating /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[2.979s] symbolically linking /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/resource/ros_tcp_endpoint -> /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[2.979s] symbolically linking /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/package.xml -> /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[2.979s] creating /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[2.979s] symbolically linking /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/launch/endpoint.py -> /home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[3.057s] Invoked command in '/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dawid/ros2_unity_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dawid/ros2_unity_ws/build/ros_tcp_endpoint/build --no-deps symlink_data
